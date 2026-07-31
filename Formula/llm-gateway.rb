@@ -5,16 +5,16 @@
 class LlmGateway < Formula
   desc "One local endpoint for Claude Code, Codex CLI, opencode and OpenClaw"
   homepage "https://github.com/NAKAK10/llm-gateway"
-  version "0.6.3"
+  version "0.6.4"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/NAKAK10/llm-gateway/releases/download/v0.6.3/llm-gateway-v0.6.3-aarch64-apple-darwin.tar.gz"
-      sha256 "a75a5a6afd2c44437187fafc6d33a5d18c098f7e363a6b8bfa385d3bfd532100"
+      url "https://github.com/NAKAK10/llm-gateway/releases/download/v0.6.4/llm-gateway-v0.6.4-aarch64-apple-darwin.tar.gz"
+      sha256 "bb3869869d8e169b5636e05bcad40b0858c61fdb673b2cdadf78f7a6e7a08322"
     else
-      url "https://github.com/NAKAK10/llm-gateway/releases/download/v0.6.3/llm-gateway-v0.6.3-x86_64-apple-darwin.tar.gz"
-      sha256 "7e4a52d3dd39363b7bd929e75927ac67388b781dbe096b2430d9e2238329912c"
+      url "https://github.com/NAKAK10/llm-gateway/releases/download/v0.6.4/llm-gateway-v0.6.4-x86_64-apple-darwin.tar.gz"
+      sha256 "90079ad9994d5cc8f37aafc469b778f5517a08afb04534b7d205e8261d5077a5"
     end
   end
 
